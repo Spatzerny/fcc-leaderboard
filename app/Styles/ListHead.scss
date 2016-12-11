@@ -1,0 +1,37 @@
+.listHead {
+	position: relative;
+	list-style: none;
+	color: #006400;
+	padding: 0;
+	margin: 0 0 1em 0;
+	font-size: 0.8em;
+	font-family: "Lato", sans-serif;
+	height: auto;
+	display: flex;
+	justfiy-content: space-between;
+	align-items: center;
+	width: 100%;
+
+	&_data {
+		position: absolute;
+		right: 0;
+	}
+
+	&_name {
+		font-size: 1.4em;
+		margin-left: 0.4em;
+	}
+
+	&_date {
+		display: inline-block;
+		margin: 0 1em;
+		width: 6.8em;
+
+	}
+
+	&_points {
+		display: inline-block;
+		margin-left: 1em;
+		width: 6.8em;
+	}
+}
